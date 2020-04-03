@@ -25,6 +25,18 @@ inputs:
     description: "The name of the environment for the deployment"
     default: "production"
     required: false
+  auto_merge:
+    description: "Sets the value of auto_merge for the deployment"
+    default: "false"
+    required: false
+  payload:
+    description: "Sets the payload for the deployment"
+    default: ""
+    required: false
+  task:
+    description: "Sets the task for the deployment"
+    default: ""
+    required: false
 outputs:
   deployment_id:
     description: "The ID of the created deployment"
